@@ -1,0 +1,136 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffffbb;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for headings */
+h1 {
+    color:#000000;
+    text-shadow: 0 2px 5px #FFFFFF;
+}
+p{
+    color: #000;
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Style for form elements */
+form {
+    background-color: #8585854f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    color:#000000;
+    text-shadow: 0 2px 5px #FFFFFF;
+}
+.cal{
+    position: relative;
+    margin-top: 40px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="submit"] , .button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, .button:hover{
+    background-color: #02458c; /* Warna latar belakang biru tua saat dihover */
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style for result display */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tbl {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    right: 31%;
+}
+
+.tbl th, td {
+    border: 1px solid #000;
+}
+
+.tbl th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+table th, td {
+    border: 1px solid #000;
+}
+
+table th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+.highlight {
+    background-color: #FFFF00; /* Highlight color (yellow) */
+}
+@page {
+    size: portrait;
+}
+
+.emoji {
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}

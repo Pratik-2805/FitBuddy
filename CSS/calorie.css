@@ -1,0 +1,176 @@
+/* PRESETS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Oswald", sans-serif;
+  }
+  h5{
+    font-size: 15px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  
+  form {
+    background: #191a1d;
+    color: #d9d9d9;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 32px;
+    width: 35%;
+    box-shadow: 0 0 3px #000000;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+  }
+  
+  select {
+    
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+  }
+  
+  label {
+    
+    margin-bottom: 0.6rem;
+    margin-right: 0.4rem;
+  }
+  
+  .btn {
+    cursor: pointer;
+    margin-top: 1.25rem;
+    padding: 0.6rem 2rem;
+    border-radius: 16px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    box-shadow: 0 0 3px #000000;
+  }
+  .button {
+    cursor: pointer;
+    margin-top: 1.25rem;
+    padding: 0.6rem 2rem;
+    border-radius: 16px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    box-shadow: 0 0 3px #000000;  
+    background: #E77751;
+    position: relative;
+    left: 10px;
+    border-color: #E77751;
+    font-size: medium;
+  }
+  
+  .btn-blue {
+    background: #E77751;
+  }
+  
+  .btn-blue:hover {
+    background: #191a1d;
+    border: 1px solid #E77751;
+  }
+  
+  .btn-dark {
+    background: #191a1d;
+  }
+  
+  .btn-dark:hover {
+    background: #c9c9c9;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+  
+  .button:hover {
+    background: #191a1d;
+    border: 1px solid #E77751;
+  }
+  
+  
+  .page {
+    padding: 4rem 15% 4rem 15%;
+    text-align: center;
+  }
+  
+  .page-dark {
+    background: #191a1d;
+    color: #ffffff;
+  }
+  
+  .page-light {
+    background: #c9c9c9;
+    color: #000000;
+  }
+  
+  .page-dark h1 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .page-light h1 {
+    color: #000000;
+    text-align: center;
+  }
+  
+  .list-box {
+    text-align: left;
+    width: 35%;
+  }
+  .list-box ul li{
+    padding: 8px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: baseline;
+  }
+  
+  .v-container {
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  #bmi-result,
+  #calorie-result {
+    padding: 0.5rem;
+    font-weight: normal;
+    background: #E77751;
+    box-shadow: 0 0 4px #000000;
+    border-radius: 12px;
+    color: #ffffff;
+  }
+
+  /* Caloric Needs */
+
+#calorie-form {
+    border: 2px solid #E77751;
+  }
+  
+  #caloric-needs ul {
+    margin-left: 2rem;
+    color: #d9d9d9;
+  }
+  
+  #male,
+  #female {
+    width: 10%;
+    
+
+  }
